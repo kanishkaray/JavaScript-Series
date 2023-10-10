@@ -1,0 +1,2 @@
+# JavaScript-Series
+Learning JavaScript
