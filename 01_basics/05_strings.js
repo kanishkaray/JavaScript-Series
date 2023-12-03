@@ -24,6 +24,13 @@ let fullName = name.concat(" ", lastName)
  */
 
 
+let name1 = "Ramaswamy";
+// console.log(name1.endsWith("Ramaswamy", 5));   //false 
+// console.log(name1.endsWith("Ramaswamy", 10));  //true
+//syntax of endsWith
+//str.endsWith(searchString, length)   // lenght is optional -> it is the length of the string from end to be considered
+ // by default length is length of str
+
 let message = "Hello World"
 // console.log(message.endsWith("World"))    //true  //checks if the message string ends with "World"
 //console.log(message.endsWith("world"))    //false    //case sensitive
@@ -31,7 +38,6 @@ let message = "Hello World"
 // let str = "Hello"
 // console.log(str.endsWith("o"))  //true
 // console.log(str.endsWith("a")) //false
-
 
 //includes()
 // console.log(message.includes("World"));  //true
@@ -89,9 +95,9 @@ let arr = textMessage.split(" ")
 //string.replace(searchValue, newValue)    =>replaces the first occurence of searched value
 //string.replaceAll(searchValue, newValue)  => replaces all occurences of searched value
 let message1 = "I have a cricket bat and a cricket ball. I love playing cricket"
-// console.log(message1.replace("cricket", "baseball"))    //I have a baseball bat and a cricket ball. I love playing cricket
-// console.log(message1.replaceAll("cricket", "baseball"))    //I have a baseball bat and a baseball ball. I love playing baseball
-
+//console.log(message1.replace("cricket", "baseball"))    //I have a baseball bat and a cricket ball. I love playing cricket
+//console.log(message1.replaceAll("cricket", "baseball"))    //I have a baseball bat and a baseball ball. I love playing baseball
+//console.log(message1);  //I have a cricket bat and a cricket ball. I love playing cricket
 
 
 //trim(), trimStart(), trimEnd()
